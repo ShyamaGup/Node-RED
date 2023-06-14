@@ -1,0 +1,50 @@
+[
+    {
+        "id": "48e5aad0efd31904",
+        "type": "mqtt in",
+        "z": "c9ea1ba84122b9b9",
+        "name": "1884Read",
+        "topic": "iotgateway",
+        "qos": "2",
+        "datatype": "json",
+        "broker": "28d6b0906dbd5b9f",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 100,
+        "y": 80,
+        "wires": [
+            [
+                "637bb0662bf191c0"
+            ]
+        ]
+    },
+    {
+        "id": "28d6b0906dbd5b9f",
+        "type": "mqtt-broker",
+        "name": "1884",
+        "broker": "tcp://cmfgdev-eg.pemnet.com:1884",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    }
+]
